@@ -1,0 +1,5 @@
+base: cloudius/osv-openjdk8
+cmdline: /java.so -jar /server.jar
+build: mvn package
+files:
+  /server.jar: target/echo-1.0-SNAPSHOT-jar-with-dependencies.jar
